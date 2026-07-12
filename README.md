@@ -56,7 +56,7 @@ A later, cleaner experiment grafted the new features onto the **true V8 champion
 re-adjudicated every candidate under a **common out-of-fold beta calibrator** with paired-bootstrap
 confidence intervals. Full table: [`reports/v8_offset_candidate_results.md`](reports/v8_offset_candidate_results.md).
 
-- **`flash_csstats_pair`** — the strongest research candidate: **ΔAUC +0.00139**, **Δlog loss +0.00104**,
+- **`flash_csstats_pair`** — the strongest research candidate: **ΔAUC +0.00139**, **log-loss improvement: 0.00104**,
   ECE-neutral (P(ECE worsens) ≈ 0.40).
 - **`csstats_pair`** — the most *reliable* backup: smaller gains but **P(improves) = 1.00** on both AUC
   and log loss.
