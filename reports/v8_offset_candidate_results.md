@@ -2,7 +2,7 @@
 
 **Setup.** Each candidate = **V8 raw logits + a no-intercept residual** from the added features
 (keeps V8's discrimination, adds only the feature lift). All candidates calibrated with a
-**common out-of-fold beta** calibrator on the locked test set (leak-free), so the comparison
+**common out-of-fold beta** recalibration for diagnostic re-adjudication only, not for production promotion, so the comparison
 isolates the feature effect rather than a calibration-policy difference. n = 3,216 test rows.
 
 Reference (raw V8 champion): **AUC 0.73065 · log loss 0.59471 · ECE10 0.01620.**
