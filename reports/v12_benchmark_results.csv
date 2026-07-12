@@ -1,0 +1,6 @@
+feature_set,policy,log_loss,auc,brier,ece10,delta_log_loss_vs_champion,delta_auc_vs_champion,delta_ece10_vs_champion,status,governance_note
+v8_champion_strategy_d_45_55,Strategy-D 45-55,0.594210,0.731161,0.205779,0.008098,0.000000,0.000000,0.000000,champion_reference,Reference model; unchanged.
+v12_plus_flash_roi,Strategy-D 45-55,0.593572,0.731271,0.205547,0.009837,-0.000638,0.000109,0.001739,research_candidate,Real V12 raw-retrain diagnostic; requires fresh forward holdout before promotion.
+v12_plus_flash_roi_csstats_assists,Strategy-D 45-55,0.593345,0.731710,0.205451,0.011058,-0.000865,0.000549,0.002961,diagnostic_only_not_promoted,Real V12 diagnostic but CSStats residual/bootstrap audit did not clear reliability bar.
+v12_plus_flash_roi_csstats_assists_rating30,Strategy-D 45-55,0.592811,0.732768,0.205236,0.011931,-0.001399,0.001606,0.003834,diagnostic_only_ece_reliability_risk,Real V12 diagnostic; stronger rank/logloss but ECE/reliability risk.
+wide_isotonic_30_70_champion_only,Gated isotonic 30-70,0.614824,0.724022,0.211189,0.019681,0.020614,-0.007139,0.011583,calibration_overfit_failure,Validation-attractive wide gate failed locked-test diagnostics.

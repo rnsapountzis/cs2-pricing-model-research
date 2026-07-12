@@ -1,0 +1,7 @@
+candidate,split,rows,covered_rows,coverage_pct,covered_date_min,covered_date_max
+csstats_pair,train,3621,636,17.6,2023-09-29,2024-12-14
+csstats_pair,valid,4522,518,11.5,2025-01-14,2025-12-21
+csstats_pair,test,3216,225,7.0,2026-01-11,2026-06-20
+flash_csstats_pair,train,3621,591,16.3,2023-09-29,2024-12-14
+flash_csstats_pair,valid,4522,495,10.9,2025-01-14,2025-12-21
+flash_csstats_pair,test,3216,212,6.6,2026-01-11,2026-06-20
